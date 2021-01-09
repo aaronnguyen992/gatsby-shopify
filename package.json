@@ -1,6 +1,11 @@
 {
   "dependencies": {
     "gatsby": "^2.30.1",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-sharp": "^2.12.0",
+    "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-source-shopify": "^3.8.0",
+    "gatsby-transformer-sharp": "^2.10.0",
     "netlify-plugin-pastel": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -15,7 +20,8 @@
     "develop": "netlify dev",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "yard build && gatsby serve"
+    "serve": "yard build && gatsby serve",
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
